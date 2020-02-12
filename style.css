@@ -138,7 +138,7 @@ header {
 }
 
 .kobe {
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.8) 80%), url("../images/kobe.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.8) 80%), url("kobe.jpg");
   background-repeat:no-repeat;
   height: 352px;
   border-bottom: 6px solid #3d5466;
