@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  color: #1c2d42;
+}
+
+header {
+  border-bottom: 1px solid #3d5466;
+  background-color: #1c2d42;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sub-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.twitter {
+  color: white;
+  font-size: 30px;
+  padding-right: 30px;
+}
+
+.search {
+  background-color: #273e5c;
+  border: 1px solid #273e5c;
+  border-radius: 50px;
+}
+
+.search span{
+  color: grey;
+  padding-left: 20px;
+  font-size: 20px;
+
+}
+
+.search input{
+  outline: none;
+  border: none;
+  background-color: #273e5c;
+  width: 450px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 50px;
+  padding-left: 10px;
+}
+
+.right-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login button {
+  background-color: #1c2d42;
+  color: #5495e8;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid #5495e8;
+  border-radius: 50px;
+  padding: 5px 20px;
+}
+
+.sign-up {
+    padding-left: 20px;
+}
+
+.sign-up button{
+  background-color: #5495e8;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid #5495e8;
+  border-radius: 50px;
+  padding: 5px 20px;
+}
+
+.ellipses {
+  padding-left: 20px;
+  padding-top: 8px;
+  color: #5495e8;
+}
+
+.main-body {
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #1c2d42;
+}
+
+.sub-main-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-left-content {
+  width: 60%;
+  border: 1px solid #3d5466;
+}
+
+.left-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Explore {
+  color: white;
+  padding-left: 20px;
+}
+
+.settings {
+  color: #5495e8;
+  font-size:20px;
+  padding-right: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color:#afbcc7;
+  font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #3d5466;
+}
+
+.for-you span {
+  padding-bottom: 15px;
+  border-bottom: 4px solid #5495e8;
+  color: #5495e8;
+}
+
+.kobe {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.8) 80%), url("../images/kobe.jpg");
+  background-repeat:no-repeat;
+  height: 352px;
+  border-bottom: 6px solid #3d5466;
+}
+
+.kobe img{
+  margin-top: 3px;
+
+}
+
+.kobe .p{
+  color: white;
+  position: relative;
+  top:240px;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left:  15px;
+}
+
+#nba {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+#nba span {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.trends {
+  border-bottom: 1px solid #3d5466;
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.trending {
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.drop-down-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drop-down-text p span{
+  padding-right: 10px;
+  color: #afbcc7;
+  font-size: 14px;
+}
+
+.drop-down {
+  padding-right: 20px;
+  color: #afbcc7;
+}
+
+.nick {
+  font-weight: bold;
+}
+
+.rip {
+  color: #afbcc7;
+}
+
+.last-container {
+  border: 1px solid #3d5466;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+
+}
+
+.last-p {
+  color: white;
+  padding-left: 20px;
+}
+
+#in {
+  color: #afbcc7;
+}
+
+.nicholas {
+  border-left: 1px solid #3d5466;
+}
+
+.nicholas img{
+
+  border-radius: 0px 5px 5px 0px;
+  height: 120px;
+}
+
+
+.body-right-content {
+  width: 40%;
+  margin-left: 20px;
+  padding-top: 15px;
+}
+
+.right {
+  border: 1px solid #3d5466;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.right span {
+  color: #afbcc7;
+  font-size: 14px;
+}
+
+.last-button button {
+  background-color: #5495e8;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid #5495e8;
+  border-radius: 50px;
+  padding: 5px 150px;
+  margin-top:20px;
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.list span{
+  color: #afbcc7;
+  padding-right: 20px;
+  font-size: 14px;
+}
